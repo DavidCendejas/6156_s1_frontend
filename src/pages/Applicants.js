@@ -17,13 +17,13 @@ const headerStyle = {
     padding: '20px'
 }
 
-function Students() {
+function Applicants() {
     return (
         <>
             <Row>
                 <Col>
                     <h2 style={headerStyle}>
-                        Students
+                        Applicants
                     </h2>
                 </Col>
             </Row>
@@ -34,4 +34,4 @@ function Students() {
     )
 }
 
-export default Students;
+export default Applicants;

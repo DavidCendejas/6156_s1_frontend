@@ -7,7 +7,7 @@ function onFormSubmit(e) {
     e.preventDefault()
     const param = e.currentTarget.dataQuery.value
     console.log(param);
-    // let request = 'http://localhost:5000/Courses?query1=' + params['query1']
+    // let request = 'http://localhost:5011/Courses?query1=' + params['query1']
     // console.log(request)
     // // axios.get(request)
     // //     .then(response => console.log(response));
@@ -18,13 +18,13 @@ const headerStyle = {
     padding: '20px'
 }
 
-function Courses() {
+function Applications() {
     return (
         <>
             <Row>
                 <Col>
                     <h2 style={headerStyle}>
-                        Courses
+                        Applications
                     </h2>
                 </Col>
             </Row>
@@ -36,4 +36,4 @@ function Courses() {
     )
 }
 
-export default Courses;
+export default Applications;
