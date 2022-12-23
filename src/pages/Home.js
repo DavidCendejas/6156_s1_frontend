@@ -16,6 +16,14 @@ function Home() {
                     </h2>
                 </Col>
             </Row>
+            <Row>Project Members:</Row>
+            <Row style={headerStyle}>
+                <Col>Aidai</Col>
+                <Col>David</Col>
+                <Col>Gaurika</Col>
+                <Col>Dominic</Col>
+                <Col>Minghan</Col>
+            </Row>
         </>
     )
 }

@@ -6,6 +6,7 @@ import Home from './pages/Home'
 import Applicants from './pages/Applicants'
 import Applications from './pages/Applications'
 import Contacts from './pages/Contacts'
+import Jobs from './pages/Jobs.js';
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
         <Route path='/Applicants' element={<Applicants />} />
         <Route path='/Applications' element={<Applications />} />
         <Route path='/Contacts' element={<Contacts />} />
+        <Route path='/Jobs' element={<Jobs />} />
       </Routes>
     </Container>
   );
